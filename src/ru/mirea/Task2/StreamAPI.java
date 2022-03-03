@@ -23,7 +23,7 @@ public class StreamAPI
     //Фильтруем на старших 20
     public static List<Human> filterBy20Age(List<Human> hList)
     {
-        return hList.stream().filter(human -> human.getAge()>20.).collect(Collectors.toList());
+        return hList.stream().filter(human -> human.getAge()>20).collect(Collectors.toList());
     }
 
 
