@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaPatternMirea.iml" filepath="$PROJECT_DIR$/.idea/JavaPatternMirea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ru/mirea/Task10/demo/demo.iml" filepath="$PROJECT_DIR$/src/ru/mirea/Task10/demo/demo.iml" />
     </modules>
   </component>
 </project>
