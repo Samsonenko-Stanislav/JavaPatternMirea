@@ -1,0 +1,22 @@
+POST http://localhost:8080/games/?id=147&name="Snake2"&creation_date="1998"
+
+<> 2022-05-17T004747.400.json
+
+###
+
+GET http://localhost:8080/cards
+
+###
+
+POST http://localhost:8080/cards
+
+<> 2022-05-15T162652.400.json
+
+###
+
+GET http://localhost:8080/cards
+
+<> 2022-05-15T162526.500.json
+
+###
+

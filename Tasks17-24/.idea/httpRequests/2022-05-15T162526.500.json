@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-05-15T13:25:26.733+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/cards"
+}

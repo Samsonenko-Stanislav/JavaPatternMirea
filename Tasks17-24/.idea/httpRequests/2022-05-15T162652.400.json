@@ -1,0 +1,6 @@
+{
+  "timestamp": "2022-05-15T13:26:52.801+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/cards"
+}

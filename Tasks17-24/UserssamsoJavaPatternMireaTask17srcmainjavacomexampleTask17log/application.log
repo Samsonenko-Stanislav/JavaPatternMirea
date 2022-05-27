@@ -1,0 +1,38 @@
+550  [main] INFO  c.example.Task17.Task17Application – Starting Task17Application using Java 17.0.2 on Stanislav with PID 10264 (C:\Users\samso\Task17\target\classes started by samso in C:\Users\samso\Task17)
+558  [main] INFO  c.example.Task17.Task17Application – No active profile set, falling back to 1 default profile: "default"
+1135 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1220 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+1865 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8090 (http)
+1870 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8090"]
+1870 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1870 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/9.0.60]
+1950 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1950 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1337 ms
+2080 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2107 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 5.6.7.Final
+2193 [main] INFO  o.h.annotations.common.Version – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2253 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2359 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2369 [main] INFO  org.hibernate.dialect.Dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2917 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2924 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3340 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3541 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will not secure any request
+3693 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+3861 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8090"]
+3877 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8090 (http) with context path ''
+3891 [main] INFO  c.example.Task17.Task17Application – Started Task17Application in 3.648 seconds (JVM running for 4.286)
+22115 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+22116 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+22116 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 0 ms
+55741 [scheduling-1] INFO  c.e.T.services.SchedulerService – Sheduler Task is started
+55744 [scheduling-1] INFO  c.e.T.services.SchedulerService – Files deleted
+55927 [scheduling-1] INFO  c.e.T.services.SchedulerService – Sheduler Task is ended
+55928 [scheduling-1] INFO  com.example.Task17.AOPClass – SchedulerService.saveEntitiesInFiles() completed in 191 ms
+115722 [scheduling-1] INFO  c.e.T.services.SchedulerService – Sheduler Task is started
+115725 [scheduling-1] INFO  c.e.T.services.SchedulerService – Files deleted
+115732 [scheduling-1] INFO  c.e.T.services.SchedulerService – Sheduler Task is ended
+115733 [scheduling-1] INFO  com.example.Task17.AOPClass – SchedulerService.saveEntitiesInFiles() completed in 11 ms
+142378 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+142379 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+142382 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
